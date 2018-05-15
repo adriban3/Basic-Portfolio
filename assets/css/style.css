@@ -75,7 +75,17 @@ body {
 .aboutMe {
     background-color: #ffffff;
     width: 960px;
-    height: 600px;
+    height: 75%;
+    position: fixed;
+    top: 107px;
+    left: 300px;
+    border: 1px solid #dddddd;
+}
+
+.contact {
+    background-color: #ffffff;
+    width: 960px;
+    height: 75%;
     position: fixed;
     top: 107px;
     left: 300px;
@@ -120,4 +130,48 @@ footer {
     background-color: #4aaaa5;
     width: 100%;
     top: 0px;
+}
+
+.n {
+    text-align: left;
+    margin-left: 20px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.box {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 20px;
+    color: #777777;
+    border: 1px solid #777777;
+    width: 920px;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+}
+
+.messageBox {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: #777777;
+    border: 1px solid #777777;
+    width: 920px;
+    height: 160px;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+}
+
+.submit {
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    background-color: #4aaaa5;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 100px;
 }
