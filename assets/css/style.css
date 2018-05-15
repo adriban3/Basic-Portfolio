@@ -183,29 +183,31 @@ footer {
 .cap3 {
     clear: both;
     padding: 20px;
-    position: absolute;
-    top: 300px;
     float: left;
 }
 
 .cap4 {
-    position: absolute;
     padding: 20px;
-    top: 300px;
     float: left;
 }
 
 .cap5 {
     clear: both;
     padding: 20px;
-    position: absolute;
-    top: 500px;
     float: left;
 }
 
 .imgp {
     clear: both;
-    float: left;
     width: 200px;
     height: 160px;
+}
+
+.words {
+    width: 200px;
+    padding: 13px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    top: 230px;
 }
