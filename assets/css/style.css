@@ -170,45 +170,42 @@ footer {
     margin-left: 20px;
     width: 100px;
 }
-
-.img1 {
-    position: absolute;
-    left: 25px;
-    width: 200px;
-    height: 160px;
+.cap1 {
     padding: 20px;
+    float: left;
 }
 
-.img2 {
-    float: right;
-    width: 200px;
-    height: 160px;
+.cap2 {
     padding: 20px;
+    float: left;
 }
 
-.img3 {
+.cap3 {
     clear: both;
+    padding: 20px;
     position: absolute;
-    top: 240px;
-    left: 25px;
-    width: 200px;
-    height: 160px;
-    padding: 20px;
+    top: 300px;
+    float: left;
 }
 
-.img4 {
-    float: right;
-    width: 200px;
-    height: 160px;
+.cap4 {
+    position: absolute;
     padding: 20px;
+    top: 300px;
+    float: left;
 }
 
-.img5 {
+.cap5 {
     clear: both;
+    padding: 20px;
     position: absolute;
-    top: 480px;
-    left: 25px;
+    top: 500px;
+    float: left;
+}
+
+.imgp {
+    clear: both;
+    float: left;
     width: 200px;
     height: 160px;
-    padding: 20px;
 }
