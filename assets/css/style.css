@@ -72,17 +72,7 @@ body {
     border-right: 1px solid #cccccc;
 }
 
-.aboutMe {
-    background-color: #ffffff;
-    width: 960px;
-    height: 75%;
-    position: fixed;
-    top: 107px;
-    left: 300px;
-    border: 1px solid #dddddd;
-}
-
-.contact {
+.subHeads {
     background-color: #ffffff;
     width: 960px;
     height: 75%;
@@ -105,17 +95,22 @@ h1 {
     margin: 20px;
 }
 
-img {
-    float: left;
-}
 
-p {
-    clear: both;
-    padding: 20px;
+.paragraph {
+    position: absolute;
+    padding-right: 20px;
+    padding-left: 20px;
     color: #777777;
 }
 
+.profileImg {
+    float: left;
+    width: 200px;
+    height: 160px;
+}
+
 footer {
+    clear: both;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -174,4 +169,46 @@ footer {
     margin-top: 15px;
     margin-left: 20px;
     width: 100px;
+}
+
+.img1 {
+    position: absolute;
+    left: 25px;
+    width: 200px;
+    height: 160px;
+    padding: 20px;
+}
+
+.img2 {
+    float: right;
+    width: 200px;
+    height: 160px;
+    padding: 20px;
+}
+
+.img3 {
+    clear: both;
+    position: absolute;
+    top: 240px;
+    left: 25px;
+    width: 200px;
+    height: 160px;
+    padding: 20px;
+}
+
+.img4 {
+    float: right;
+    width: 200px;
+    height: 160px;
+    padding: 20px;
+}
+
+.img5 {
+    clear: both;
+    position: absolute;
+    top: 480px;
+    left: 25px;
+    width: 200px;
+    height: 160px;
+    padding: 20px;
 }
